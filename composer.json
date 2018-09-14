@@ -1,0 +1,27 @@
+{
+    "name": "alphabeter/translate",
+    "description": "this is a translate demo.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alphabeter",
+            "email": "alphabeter@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.3",
+        "mockery/mockery": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nilnice\\Translation\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nilnice\\Translation\\Tests\\": "./tests"
+        }
+    }
+}
